@@ -56,7 +56,7 @@ Our research project integrates two omics in the colon cancer: gene expression(R
 Includes hazard ratio, Kaplan-Meier curves, risk score visualizations, and correlation matrix. In Figure 4, kest_k means the optimal number of clusters determined when using the k-clustering method.
 
 <p align="center">
-  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/KM%20Curve.png" width="1000" height="400">
+  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/KM%20Curve.png" width="1000" height="370">
   </p>
 
 <p align="center">
@@ -64,7 +64,7 @@ Includes hazard ratio, Kaplan-Meier curves, risk score visualizations, and corre
   </p>
 
 <p align="center">
-  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Risk%20Score.png" width="1000" height="400">
+  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Risk%20Score.png" width="1000" height="370">
   </p>
 
 <p align="center">
@@ -72,7 +72,7 @@ Includes hazard ratio, Kaplan-Meier curves, risk score visualizations, and corre
   </p>
 
 <p align="center">
-  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/ROC.png" width="1000" height="400">
+  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/ROC.png" width="1000" height="370">
   </p>
 
 <p align="center">
