@@ -78,3 +78,7 @@ Includes hazard ratio, Kaplan-Meier curves, risk score visualizations, and corre
 <p align="center">
   Figure 6: ROC curve comparison of three models 
   </p>
+
+## Conclusion
+In summary, the VAE model consistently provided the most detailed insights across various analyses, making it a robust choice for nuanced data stratification and risk assessment. PCA proved to be reliable and interpretable, while UMAP’s performance suggests it may benefit from further optimization. The choice of model should align with the analytical goals and clinical context of the study.
+Overall, the integration of various types of omics data demonstrates a powerful approach to under- standing cancer.In the future study,the methodologies applied here can be used to stratify patients in clinical trials, ensuring that trials are more targeted and potentially more effective.
