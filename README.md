@@ -9,7 +9,15 @@ Our research project integrates two omics in the colon cancer: gene expression(R
 
 ## Instructions
 
-In defualt setting, we will run three models: VAE, PCA and UMAP and reduce to 128 dimensions with a 60/40 split for training set and validation set.
+- Data Preprocess:
+```Bash 
+cd preprocess_data
+bash preprocess_data_script.sh
+```
+Remember to tailor the code to the data you need in the bash script.
+
+The main.py file aims to perform dimension reduction based on preprocessed data. Before running it, please change the path of input files and output files.
+In the default setting, we run three models: VAE, PCA, and UMAP, then reduce to 128 dimensions with a 60/40 split for the training set and validation set.
 
 To run a specific model, 
 
@@ -33,8 +41,9 @@ To change the split of training set and validation set:
 ```python
 Python main.py --validation_split=0.4
 ```
-
 The imported data in the main.py is truncated sample data due to the memory limit in GitHub. However, the following results are based on complete data.
+
+Then we get the output which is stored in the output directory. In the subdirectory, we have every method implemented and every fold within each subfolder(We use 10-fold cross-validation for each method). To run the downstream analysis, turn to the downstream folder and adjust the input file path to your own data.
 
 ## Data Resource
 ### Table 1: Overview information of the colon-cancer dataset
