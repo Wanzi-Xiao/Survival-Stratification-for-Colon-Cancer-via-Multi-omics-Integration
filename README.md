@@ -17,7 +17,7 @@ bash preprocess_data_script.sh
 Remember to tailor the code to the data you need in the bash script.
 
 The main.py file aims to perform dimension reduction based on preprocessed data. Before running it, please change the path of input files and output files.
-In the default setting, we run three models: VAE, PCA, and UMAP, then reduce to 128 dimensions with a 60/40 split for the training set and validation set.
+In the default setting, we run three models: VAE, PCA, and UMAP, then reduce to 128 dimensions with a 60/40 split for the training set and validation set. If using VAE model, the default epoch is set to 100.
 
 To run a specific model, 
 
@@ -32,6 +32,10 @@ Python main.py --pca
 - Run UMAP model:
 ```python
 Python main.py --umap
+```
+- To change the epoch of VAE model:
+```python
+Python main.py --epochs=100
 ```
 To change the number of reduced dimensions:
 ```python
