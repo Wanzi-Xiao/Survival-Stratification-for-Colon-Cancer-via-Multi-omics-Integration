@@ -10,8 +10,8 @@ This project develops a computational method for survival stratification in colo
 ## Data Resource
 ### Table 1: Overview information of the colon-cancer dataset
 
-| Dataset Info     | Colon Cancer                           |
-|------------------|----------------------------------------|
+| Dataset Info     | Colon Cancer                           |                           |
+|------------------|----------------------------------------|---------------------------|
 | **Source**       | UCSC Xena data portal, TCGA            |
 | **Additional label** | Vital_status, days_to_birth, days_to_death, stage |
 | **Omics type**   | Gene expression RNA-seq  | miRNA expression          |
