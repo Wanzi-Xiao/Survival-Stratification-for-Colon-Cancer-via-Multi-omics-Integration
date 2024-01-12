@@ -1,0 +1,23 @@
+name: vae-multiomics
+channels:
+  - r
+  - bioconda
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - notebook
+  - r-base
+  - pytorch
+  - torchvision
+  - tensorboard
+  - matplotlib
+  - tqdm
+  - scikit-learn
+  - lifelines
+  - seaborn
+  - umap-learn
+  - scikit-survival
+prefix: /Users/wanzi/opt/anaconda3/envs/vae-multiomics
