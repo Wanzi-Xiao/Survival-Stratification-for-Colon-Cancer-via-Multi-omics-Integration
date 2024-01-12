@@ -14,10 +14,10 @@ This project develops a computational method for survival stratification in colo
 | ------------------ | -------------------------------------- |
 | **Source**         | UCSC Xena data portal, TCGA            |
 | **Additional label** | Vital_status, days_to_birth, days_to_death, stage |
-| **Omics type**     | Gene expression RNA-seq** |
+| **Omics type**     | Gene expression RNA-seq |
 | **Feature number** | 54186 |
 | **Sample number**  | 513 |
-| **Omics type**     | miRNA expression** |
+| **Omics type**     | miRNA expression |
 | **Feature number** | 1881 |
 | **Sample number**  | 462 |
 
