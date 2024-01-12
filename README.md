@@ -25,6 +25,8 @@ Our research project integrates two omics in the colon cancer: gene expression(R
 1. **Data Preprocessing**: Normalization and filtering of RNA-seq and miRNA data.
 
 ### Figure 1: Data preprocess workflow
+<img src="[URL_to_image](https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Data%20preprocess%20workflow.png)" width="1000" height="200">
+
 ![Data preprocess workflow](https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Data%20preprocess%20workflow.png)
 
 2. **Dimension Reduction**: Using VAE, PCA and UMAP models.
