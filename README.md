@@ -23,8 +23,15 @@ Our research project integrates two omics in the colon cancer: gene expression(R
 
 ## Methodology
 1. **Data Preprocessing**: Normalization and filtering of RNA-seq and miRNA data.
-### Figure 1: [Data preprocess workflow]
-![Data preprocess workflow](https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Data%20preprocess%20workflow.png)
+### Figure 1: Data preprocess workflow
+!Data preprocess workflow(https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Data%20preprocess%20workflow.png)
+2. **Dimension Reduction**: VAE, PCA and UMAP
+### Figure 2: Method workflow
+!Method workflow(https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Method%20workflow.png)
+
+### Figure 3: Variational Autoencoder Architecture
+!Variational Autoencoder Architecture(https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Variational%20Autoencoder%20Architecture.png))
+
 3. **Feature Selection**: Using Cox Proportional Hazards Model.
 4. **Clustering & Classification**: K-means and SVM.
 5. **Model Evaluation**: Concordance Index, ROC Curve, AUC.
