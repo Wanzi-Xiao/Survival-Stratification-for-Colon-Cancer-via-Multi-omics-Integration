@@ -1,7 +1,7 @@
 # Survival Stratification for Colon Cancer via Multi-omics Integration
 
 ## Overview
-This project develops a computational method for survival stratification in colon adenocarcinoma using multi-omics data.
+Our research project integrates two omics in the colon cancer: gene expression(RNA-seq) and miRNA. We use three models to extract features from data to obtain a joint latent space: Variational Autoencoder(VAE), PCA and UMAP through 10-fold cross-validation. We group the patients in an unsupervised manner though k-means clustering and we build an SVM classfier for predicting the labels of validation groups. The results show that VAE model has slightly better performance than the other two.
 
 ## Contributors
 - Wanzi Xiao
@@ -21,13 +21,24 @@ This project develops a computational method for survival stratification in colo
 | **Feature number** | 1881 |
 | **Sample number**  | 462 |
 
-
-
 ## Methodology
 1. **Data Preprocessing**: Normalization and filtering of RNA-seq and miRNA data.
-2. **Feature Selection**: Using Cox Proportional Hazards Model.
-3. **Clustering & Classification**: K-means and SVM.
-4. **Model Evaluation**: Concordance Index, ROC Curve, AUC.
+
+### Figure 1: Data preprocess workflow
+<img src="[URL_to_image](https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Data%20preprocess%20workflow.png)" width="1000" height="200">
+
+![Data preprocess workflow](https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Data%20preprocess%20workflow.png)
+
+2. **Dimension Reduction**: Using VAE, PCA and UMAP models.
+### Figure 2: Method workflow
+![Method workflow](https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Method%20workflow.png)
+
+### Figure 3: Variational Autoencoder Architecture
+![Variational Autoencoder Architecture](https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Variational%20Autoencoder%20Architecture.png))
+
+3. **Feature Selection**: Using Cox Proportional Hazards Model.
+4. **Clustering & Classification**: K-means and SVM.
+5. **Model Evaluation**: Concordance Index, ROC Curve, AUC.
 
 ## Results
 Includes hazard ratio, Kaplan-Meier curves, risk score visualizations, and correlation matrix.
