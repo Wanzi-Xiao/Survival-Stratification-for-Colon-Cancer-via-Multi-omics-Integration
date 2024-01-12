@@ -7,6 +7,35 @@ Our research project integrates two omics in the colon cancer: gene expression(R
 - Wanzi Xiao: <wanzix@andrew.cmu.edu>
 - Xueke Jin: <xuekej@andrew.cmu.edu>
 
+## Instructions
+
+In defualt setting, we will run three models: VAE, PCA and UMAP and reduce to 128 dimensions with a 60/40 split for training set and validation set.
+
+To run a specific model, 
+
+- Run VAE model:
+```python
+Python main.py --vae
+```
+- Run PCA model:
+```python
+Python main.py --pca
+```
+- Run UMAP model:
+```python
+Python main.py --umap
+```
+To change the number of reduced dimensions:
+```python
+Python main.py --z_dims=128
+```
+To change the split of training set and validation set:
+```python
+Python main.py --validation_split=0.4
+```
+
+The imported data in the main.py is truncated sample data due to the memory limit in GitHub. However, the following results are based on complete data.
+
 ## Data Resource
 ### Table 1: Overview information of the colon-cancer dataset
 
