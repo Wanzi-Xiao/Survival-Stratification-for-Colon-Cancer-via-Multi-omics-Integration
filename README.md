@@ -8,7 +8,16 @@ This project develops a computational method for survival stratification in colo
 - Xueke Jin
 
 ## Data Resource
-Data from UCSC Xena data portal TCGA, including gene and miRNA expression profiles.
+### Table 1: Overview information of the colon-cancer dataset
+
+| Dataset Info | Colon Cancer |
+| --------------- | --------------- |
+| Source      | UCSC Xena data portal, TCGA  |
+| Additional label     | Vital_status, days_to_birth, days_to_death, stage    |
+| Omics type     | Gene expression RNA-seq | miRNA expression     |
+| Feature number     | 54186 | 1881  |
+| Sample number     | 513 | 462  |
+
 
 ## Methodology
 1. **Data Preprocessing**: Normalization and filtering of RNA-seq and miRNA data.
