@@ -56,7 +56,7 @@ Our research project integrates two omics in the colon cancer: gene expression(R
 Includes hazard ratio, Kaplan-Meier curves, risk score visualizations, and correlation matrix. In Figure 4, kest_k means the optimal number of clusters determined when using the k-clustering method.
 
 <p align="center">
-  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/KM%20Curve.png" width="1000" height="370">
+  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/KM%20Curve.png" width="1000" height="350">
   </p>
 
 <p align="center">
@@ -64,7 +64,7 @@ Includes hazard ratio, Kaplan-Meier curves, risk score visualizations, and corre
   </p>
 
 <p align="center">
-  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Risk%20Score.png" width="1000" height="370">
+  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/Risk%20Score.png" width="1000" height="350">
   </p>
 
 <p align="center">
@@ -72,7 +72,7 @@ Includes hazard ratio, Kaplan-Meier curves, risk score visualizations, and corre
   </p>
 
 <p align="center">
-  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/ROC.png" width="1000" height="370">
+  <img src="https://github.com/Wanzi-Xiao/Survival-Stratification-for-Colon-Cancer-via-Multi-omics-Integration/blob/main/figures/ROC.png" width="1000" height="350">
   </p>
 
 <p align="center">
@@ -81,4 +81,4 @@ Includes hazard ratio, Kaplan-Meier curves, risk score visualizations, and corre
 
 ## Conclusion
 In summary, the VAE model consistently provided the most detailed insights across various analyses, making it a robust choice for nuanced data stratification and risk assessment. PCA proved to be reliable and interpretable, while UMAP’s performance suggests it may benefit from further optimization. The choice of model should align with the analytical goals and clinical context of the study.
-Overall, the integration of various types of omics data demonstrates a powerful approach to under- standing cancer.In the future study,the methodologies applied here can be used to stratify patients in clinical trials, ensuring that trials are more targeted and potentially more effective.
+Overall, the integration of various types of omics data demonstrates a powerful approach to under- standing cancer. In the future study,the methodologies applied here can be used to stratify patients in clinical trials, ensuring that trials are more targeted and potentially more effective.
